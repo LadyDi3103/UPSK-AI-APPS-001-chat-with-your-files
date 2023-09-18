@@ -11,13 +11,13 @@
 - [7. Valida tu solución](#7-valida-tu-solución)
 - [8. Recursos](#8-recursos)
 
-***
+---
 
 ## 1. Consideraciones generales
 
 - Este proyecto lo resolvemos de manera **individual**.
 - El rango de tiempo estimado para completar el proyecto es de 1 a 2 Sprints.
-  
+
 ## 2. Preámbulo
 
 En los últimos años, la inteligencia artificial (IA) ha desempeñado un papel
@@ -32,7 +32,7 @@ La habilidad de dirigir eficazmente la IA y entender los diferentes tipos de
 herramientas que componen el ecosistema, son una competencia excepcionalmente
 poderosa, ya que nos permite aprovechar al máximo sus capacidades para
 automatizar tareas, optimizar procesos, generar contenido de alta calidad,
-analizar datos y mucho más.
+analizar datos y mucho...mucho más.
 
 ## 3. Resumen del proyecto
 
@@ -58,30 +58,30 @@ herramienta.
 - [ ] [Langchain Components](https://docs.langchain.com/docs/category/components)
 - [ ] [Chat models](https://docs.flowiseai.com/chat-models)
 - [ ] [Chat Flows Basics](https://www.youtube.com/watch?v=fn4GCZuiwdk&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ&index=3)
-
 - [ ] Document Labels
-  + [Flowise: Document loaders](https://docs.flowiseai.com/document-loaders)
-  + [Langchain Concepts: Document loaders](https://docs.langchain.com/docs/components/indexing/document-loaders)
+
+   + [Flowise: Document loaders](https://docs.flowiseai.com/document-loaders)
+   + [Langchain Concepts: Document loaders](https://docs.langchain.com/docs/components/indexing/document-loaders)
+
 - [ ] Text Splitters
-  + [Text Splitters demo](https://www.youtube.com/watch?v=kMtf9sNIcao&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ&index=3)
-  + [Langchain Concepts: Text Splitters](https://docs.langchain.com/docs/components/indexing/text-splitters)
+
+   + [Text Splitters demo](https://www.youtube.com/watch?v=kMtf9sNIcao&list=PL4HikwTaYE0HDOuXMm5sU6DH6_ZrHBLSJ&index=3)
+   + [Langchain Concepts: Text Splitters](https://docs.langchain.com/docs/components/indexing/text-splitters)
+
 - [ ] [Embeddings](https://docs.flowiseai.com/embeddings/azure-openai-embeddings)
 - [ ] Vector Stores:
-  + [Flowise: Vector Stores](https://docs.flowiseai.com/vector-stores)
-  + [Langchain Concepts: Vector Stores](https://docs.langchain.com/docs/components/indexing/vectorstore)
+
+   + [Flowise: Vector Stores](https://docs.flowiseai.com/vector-stores)
+   + [Langchain Concepts: Vector Stores](https://docs.langchain.com/docs/components/indexing/vectorstore)
 
 ## 5. Criterios de aceptación
 
 1. Deberás configurar tu chatflow de manera que acepta la carga de al menos 1
    archivo de texto, en formato `txt` o `pdf`.
-
 2. Utilizar el módelo `gpt-3.5-turbo`.
-
 3. El chatbot generado debe ser capaz de contestar preguntas usando la
    información de el/los archivos cargados.
-
 4. Tus github actions deben pasar exitosamente.
-
 5. Debes utilizar al menos lo siguientes nodos:
 
 - Conversational Retrival QA Chain
@@ -102,6 +102,7 @@ Seguir las indicaciones para instalar globalmente [flowise](https://github.com/F
 npm  install  -g  flowise
 
 npx  flowise  start
+
 ```
 
 ## 7. Valida tu solución
@@ -114,6 +115,7 @@ Antes de ejecutar los test copiar en la carpeta `/test` con el nombre
 
 ```bash
 OPENAI_API_KEY=<TODO:  poner  tu api  key> npm  test
+
 ```
 
 Una vez inicializada la herramienta podrás acceder [aquí](http://localhost:3000/)
